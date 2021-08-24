@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1','.pythonanywhere.com']
 
+MODEL_ROOT = os.path.join(BASE_DIR, 'myapp/models')
 
 # Application definition
 
